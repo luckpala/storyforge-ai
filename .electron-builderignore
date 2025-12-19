@@ -1,0 +1,56 @@
+# 排除用户数据目录
+data/
+我的故事库/
+*.json
+*.txt
+*.rar
+*.zip
+
+# 排除开发文件
+node_modules/
+dist/
+release/
+*.log
+*.bat
+*.md
+*.py
+*.cjs
+*.ts
+!electron/**/*.ts
+!services/**/*.ts
+!components/**/*.ts
+!types.ts
+!defaultContent.ts
+!index.tsx
+!App.tsx
+
+# 排除临时文件
+tmp.*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 排除其他用户数据
+storyforge_backup.json
+storyforge_backup_*.json
+storyforge_*.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+{
+  "name": "StoryForge AI",
+  "description": "A collaborative AI writing assistant that helps you structure stories, define characters, and generate outlines using Gemini.",
+  "requestFramePermissions": []
+}

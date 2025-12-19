@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+dist-ssr/
+*.rar
+*.zip
+StoryForge-AI-Distribution.zip
+StoryForge-AI-分发版/
+StoryForge-AI-分发版.zip
+
+# User data (sensitive)
+data/sessions.json
+data/settings.json
+data/writingSamples.json
+data/writingSamplesEnabled.json
+我的故事库/
+
+# Temporary files
+tmp.js
+tmp.ts
+*.tmp

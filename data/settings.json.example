@@ -1,0 +1,33 @@
+{
+  "apiConfigs": [
+    {
+      "name": "示例配置",
+      "provider": "google",
+      "apiKey": "YOUR_API_KEY_HERE",
+      "baseUrl": "",
+      "modelId": "gemini-2.5-pro",
+      "useProxy": false,
+      "availableModels": []
+    }
+  ],
+  "currentApiConfig": {
+    "name": "示例配置",
+    "provider": "google",
+    "apiKey": "YOUR_API_KEY_HERE",
+    "baseUrl": "",
+    "modelId": "gemini-2.5-pro",
+    "useProxy": false,
+    "availableModels": []
+  },
+  "targetWordCount": 2000,
+  "maxHistoryForAI": 10,
+  "temperature": 0.75,
+  "rewriteContextBefore": 2,
+  "rewriteContextAfter": 1,
+  "enableStreaming": false,
+  "removeContextLimit": false,
+  "contextLength": 100000,
+  "maxResponseLength": 60000,
+  "useModelDefaults": false
+}
+

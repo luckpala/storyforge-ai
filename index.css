@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Custom theme colors (if needed in the future) */
+@theme {
+  --color-slate-750: #2d3748;
+  --color-slate-850: #1a202c;
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b; 
+}
+

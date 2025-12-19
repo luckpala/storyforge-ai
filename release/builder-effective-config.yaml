@@ -1,0 +1,34 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.storyforge.ai
+productName: StoryForge AI
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+      - package.json
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+  icon: build/icon.ico
+mac:
+  target:
+    - dmg
+  icon: build/icon.icns
+  category: public.app-category.writing
+linux:
+  target:
+    - AppImage
+    - deb
+  icon: build/icon.png
+  category: Office
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+electronVersion: 33.4.11
